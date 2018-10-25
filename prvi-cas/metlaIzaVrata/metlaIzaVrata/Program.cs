@@ -65,7 +65,7 @@ namespace metlaIzaVrata
         {
             Osoba uneta = consoleCreate();
             TimeSpan razlika = DateTime.Now.Subtract(uneta.DatumRodjenja);
-            int brojGodina = (razlika.Days / 365);
+            int brojGodina = razlika.Days / 365;
             
             Console.WriteLine("Ime ti oj - " + uneta.Ime);
             Console.WriteLine("Prez'me ti je oj m8 - " + uneta.Prezime);
@@ -75,7 +75,7 @@ namespace metlaIzaVrata
             }
             else
             {
-                Console.WriteLine("Aha, ides jos u osnovnu. Hahaha. Nube.");
+                Console.WriteLine("Aha, ides jos u ojsnovnu. Hahaha. Nube.");
             }
 
             Console.WriteLine("OJ.");
