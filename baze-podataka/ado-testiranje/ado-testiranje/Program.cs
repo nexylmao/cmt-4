@@ -10,7 +10,7 @@ namespace ado_testiranje
             SqlConnection sql = new SqlConnection();
             sql.ConnectionString = "Data Source = 192.168.0.16;" +
                                    "User id=SA;" +
-                                   "Password=Trackshittaz10!;";
+                                   "Password=*password*;";
             sql.Open();
             
             
