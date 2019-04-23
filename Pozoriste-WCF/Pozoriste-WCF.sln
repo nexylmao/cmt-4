@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PozoristeCommon", "PozoristeCommon\PozoristeCommon.csproj", "{B0A67DB2-9BF4-4521-9480-2A500EEF10E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PozoristeServer", "PozoristeServer\PozoristeServer.csproj", "{10130BE6-EB69-42CD-9B08-9AF7D5384932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PozoristeClient", "PozoristeClient\PozoristeClient.csproj", "{9E5FA770-D629-4EF3-B2DD-527C9CDA81BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0A67DB2-9BF4-4521-9480-2A500EEF10E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A67DB2-9BF4-4521-9480-2A500EEF10E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A67DB2-9BF4-4521-9480-2A500EEF10E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A67DB2-9BF4-4521-9480-2A500EEF10E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10130BE6-EB69-42CD-9B08-9AF7D5384932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10130BE6-EB69-42CD-9B08-9AF7D5384932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10130BE6-EB69-42CD-9B08-9AF7D5384932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10130BE6-EB69-42CD-9B08-9AF7D5384932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E5FA770-D629-4EF3-B2DD-527C9CDA81BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5FA770-D629-4EF3-B2DD-527C9CDA81BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5FA770-D629-4EF3-B2DD-527C9CDA81BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5FA770-D629-4EF3-B2DD-527C9CDA81BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
